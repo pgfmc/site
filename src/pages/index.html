@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../css/main.css">
-        <title>PGF</title>
-    </head>
 
-    <body>
+<head>
+    <title>PGF - Official Website</title>
+    <meta name="description" content="MyServer is a new and awesome Minecraft server. You can join with the IP 'play.myserver.net'.">
+    <meta property="og:title" content="MyServer - Official Website Portal">
+    <meta property="og:site_name" content="MyServer">
+    <meta property="og:description" content="MyServer is a new and awesome Minecraft server. You can join with the IP 'play.myserver.net'.">
+    <meta property="og:image" content="https://bybilly.uk/portal/img/minecraft.jpg">
+    <meta property="og:url" content="https://bybilly.uk/">
+    <meta name="twitter:card" content="summary_large_image">
 
-        <h1 class="page-title"><a href="" style="text-decoration: none">Welcome to PGF</a></h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/main.css">
+</head>
 
-        <p class="page-description">
-            Join at pgfmc.net!
-        </p>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="/src/img/original.png" alt="MyServer logo">
+        </div>
 
-        <nav>
-            <ul>
-                <li><a href="#">Button 1</a></li>
-                <li><a href="#">Button 2</a></li>
-                <li><a href="#">Button 3</a></li>
-                <li><a href="#">Button 4</a></li>
-            </ul>
-            <div class="discord-btn"><a href="https://discord.gg/zdxeREe" target="_blank">Discord</a></div>>
-            <div class="github-btn"><a href="https://github.com/pgfmc" target="_blank">GitHub</a></div>
-        </nav>
+        <div class="items">
+            <a href="#" class="item forums">
+                <div>
+                    <img src="/src/img/forums.png" alt="Minecraft forums icon" class="img">
+                    <p class="subtitle">chat on our</p>
+                    <p class="title">Forums</p>
+                </div>
+            </a>
 
-        <ul class="feature-list">
-            <li>Bedrock and Java compatible</li>
-            <li>Latest version</li>
-            <li>Custom plugins</li>
-            <li>Semi-vanilla survival</li>
-        </ul>
+            <a href="#" class="item store">
+                <div>
+                    <img src="/src/img/store.png" alt="Minecraft store icon" class="img">
+                    <p class="subtitle">donate on our</p>
+                    <p class="title">Store</p>
+                </div>
+            </a>
 
-    </body>
+            <a href="#" class="item vote">
+                <div>
+                    <img src="/src/img/vote.png" alt="Minecraft voting icon" class="img">
+                    <p class="subtitle">support us by</p>
+                    <p class="title">Voting</p>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="playercount">
+            <p>Join <span class="sip" data-ip="pgfmc.net" data-port="25565">
+			</span> other players on <span class="ip">pgfmc.net</span></p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/src/js/firefly.js" type="text/javascript"></script>
+    <script src="/src/js/main.js" type="text/javascript"></script>
+</body>
+
 </html>

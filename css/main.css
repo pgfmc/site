@@ -18,7 +18,7 @@ div {
 .container {
     
     display: grid;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: white;
 }
@@ -47,10 +47,6 @@ div {
     background-color: rgba(255, 255, 255, 0.4);
     
 
-}
-
-#nav-list li a {
-    
 }
 
 .main {

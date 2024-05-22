@@ -36,7 +36,8 @@ div {
     display: inline;
     border: 2px solid black;
     padding: 10px;
-    background-color: rgb(0, 0, 0, 0.4);;
+    background-color: rgb(0, 0, 0, 0.6);;
+    backdrop-filter: blur(3px);
 }
 
 #nav-list li {
@@ -45,16 +46,16 @@ div {
     margin-inline: 6em;
     padding: 4px;
     background-color: rgba(255, 255, 255, 0.4);
-    
-
+    backdrop-filter: blur(3px);
 }
 
 .main {
     place-self: center;
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 16, 0.6);
     border: 2px solid black;
     padding: 2em;
     padding-inline: 12em;
+    backdrop-filter: blur(3px);
 
     text-decoration: none;
     color: white;

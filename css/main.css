@@ -26,14 +26,14 @@ a:hover {
 
 @font-face {
     font-family: "Minecraft Regular";
-    src: url("../MinecraftRegular-Bmg3.otf");
+    src: url("www.pgfmc.net/MinecraftRegular-Bmg3.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Minecraft Regular";
-    src: url("../MinecraftBold-nMK1.otf");
+    src: url("www.pgfmc.net/MinecraftBold-nMK1.otf");
     font-weight: bold;
     font-style: normal;
 }
